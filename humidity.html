@@ -17,7 +17,6 @@
 
     <!-- Style sheet used-->
     <link rel="stylesheet" type="text/css" href="style.css">
-
   </head>
 
   <body>
@@ -29,7 +28,7 @@
         <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse"
          data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
          aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
@@ -54,22 +53,23 @@
           </ul>
         </div>
       </nav>
+    </div>
+    <!-- Navigation bar end -->
+    <!-- Content Section start -->
+    <div class="container">
       <div class="row">
         <div class="col-lg-7 col-md-12">
-          <!-- Left box with the summary as well as Fig1  -->
+        <!-- Left box with the summary as well as Fig1  -->
           <div class="box">
             <h3 class="title">Latitude Vs. Humidity</h3>
             <hr>
-            <img src="Resources/assets/images/MyFig2.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
+              <img src="Resources/assets/images/MyFig2.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
 
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-             accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-             500 cities.</p>
-
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-             Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-             source data and visualizations created as part of the analysis, as well as explanations and descriptions of
-             any trends and correlations witnessed.</p>
+              <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
+               accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
+               500 cities.</p>
+               
+              <p>The Latitude vs. Humidity analysis is theres not much of a correlation since the points of high temperature is in negative and positive latitude.</p>
           </div>
         </div>
         <div class="col-lg-5 col-md-12">
@@ -78,7 +78,7 @@
             <h5 class="title">Visualizations</h5>
             <hr>
             <div class="container">
-            <!-- Divide into two portions for each section so 6 and 6-->
+              <!-- Divide into two portions for each section so 6 and 6-->
               <div class="row" style="padding-bottom: 30px;">
                 <div class="col-6">
                   <a href="max_temperature.html">
@@ -107,12 +107,12 @@
           </div>
         </div>
       </div>
+      <!-- Content Section end -->
+      <!-- Footer Section end -->
+      <footer>
+        <div class="footer">Created by: Shanil Lobanwala with many resources and stackoverflow used.</div>
+      </footer>
     </div>
-
-    <footer>
-      <div class="footer">Created by: Shanil Lobanwala with many resources and stackoverflow used.</div>
-    </footer>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
