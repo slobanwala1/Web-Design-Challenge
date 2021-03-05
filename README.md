@@ -7,8 +7,26 @@ structure identity.
 
 ## Here are the snapshots and analysis:
 
-**No Filter**
+**Latitude Vs Temperature**
 
 <br>
 <br>
-<img src="https://github.com/slobanwala1/javascript-challenge/blob/main/static/images/nofilter.PNG" width="500">
+<img src="https://github.com/slobanwala1/Web-Design-Challenge/blob/main/Images/SLComparisonOne.PNG" width="500">
+
+**Latitude Vs Humidity**
+
+<br>
+<br>
+<img src="https://github.com/slobanwala1/Web-Design-Challenge/blob/main/Images/SLComparisonTwo.PNG" width="500">
+
+**Latitude Vs Cloudiness**
+
+<br>
+<br>
+<img src="https://github.com/slobanwala1/Web-Design-Challenge/blob/main/Images/SLComparisonThree.PNG" width="500">
+
+**Latitude Vs Wind Speed**
+
+<br>
+<br>
+<img src="https://github.com/slobanwala1/Web-Design-Challenge/blob/main/Images/SLComparisonFour.PNG" width="500">
